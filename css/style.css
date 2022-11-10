@@ -53,12 +53,18 @@
     position: relative;
 }
 
+.flags_sec1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 200px;
+}
 
+/* india */
 .india{
     height: 300px;
-    width: 400px;
-    background-color: #000;
-    margin-top: 50px;
+    width: 500px;
+    float: left;
+    
 }
 .india .one{
     height: 100px;
@@ -71,4 +77,72 @@
 .india .three{
     height: 100px;
     background-color: #118407;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two img{
+    width: 100px;
+    height: 100px;
+}
+.india{
+    position: relative;
+}
+
+/* germany */
+.germany{
+    height: 300px;
+    width: 500px;
+    float: left;
+}
+.germany .one{
+    height: 100px;
+    background-color: #000000;
+}
+.germany .two{
+    height: 100px;
+    background-color: #D60000;
+}
+.germany .three{
+    height: 100px;
+    background-color: #F7C800;
+}
+
+/* usa flag */
+.usa{
+    height: 300px;
+    width: 500px;
+    position: relative;
+}
+.usa img{
+    position: absolute;
+    height: 161.532px;
+}
+.usa .red{
+    height: 23.076px;
+    width: 400px;
+    background-color: #AC2132;
+}
+.usa .white{
+    height: 23.076px;
+    width: 400px;
+    background-color: #ffffff;
+}
+/* bangladesh flag */
+.bd_main{
+    height: 300px;
+    width: 500px;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bd_main .round{
+    height: 200px;
+    width: 200px;
+    background: red;
+    border-radius: 50%;
+    
 }
